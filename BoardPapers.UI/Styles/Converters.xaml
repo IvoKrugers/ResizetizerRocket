@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary
+    x:Class="BoardPapers.UI.Styles.Converters"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:conv="clr-namespace:BoardPapers.UI.Converters">
+
+    <?xaml-comp compile="true" ?>
+
+    <conv:ResourceToHexStringConverter x:Key="ResourceToHexStringConverter" />
+    <conv:StringToColorResourceConverter x:Key="StringToColorResourceConverter" />
+    <conv:VisibilityNotNullOrEmptyConverter x:Key="VisibilityNotNullOrEmptyConverter" />
+    <conv:VisibilityNullOrEmptyConverter x:Key="VisibilityNullOrEmptyConverter" />
+    <conv:VisibilityNotNullConverter x:Key="VisibilityNotNullConverter" />
+    <conv:VisibilityNullConverter x:Key="VisibilityNullConverter" />
+
+</ResourceDictionary>

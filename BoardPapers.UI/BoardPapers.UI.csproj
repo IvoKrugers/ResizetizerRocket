@@ -1,0 +1,144 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="6.4.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.726" />
+    <PackageReference Include="MvvmCross.Forms" Version="6.4.2" />
+    <PackageReference Include="Resizetizer.NT" Version="0.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BoardPapers.Core\BoardPapers.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="Converters\" />
+  </ItemGroup>
+
+
+<ItemGroup>
+    <None Remove="Images\Covers\DefaultCover.png" />
+    <None Remove="Images\Covers\Linen-Red.png" />
+    <None Remove="Images\Covers\Calfskin-Black.png" />
+    <None Remove="Images\Covers\Calfskin-Brown.png" />
+    <None Remove="Images\Covers\Calfskin-Red.png" />
+    <None Remove="Images\Covers\Canvas-Blue.png" />
+    <None Remove="Images\Covers\Canvas-Red.png" />
+    <None Remove="Images\Covers\DefaultCover.png" />
+    <None Remove="Images\Covers\Leather-Black.png" />
+    <None Remove="Images\Covers\Leather-BrownSaddle.png" />
+    <None Remove="Images\Covers\Leather-CaramelBrown.png" />
+    <None Remove="Images\Covers\Leather-ChocolateBrown.png" />
+    <None Remove="Images\Covers\Leather-Crocodile.png" />
+    <None Remove="Images\Covers\Leather-DarkOlive.png" />
+    <None Remove="Images\Covers\Leather-MochaElephant.png" />
+    <None Remove="Images\Covers\Leather-Ostrich.png" />
+    <None Remove="Images\Covers\Leather-TanElephant.png" />
+    <None Remove="Images\Covers\Linen-Blue.png" />
+    <None Remove="Images\Covers\Linen-Red.png" />
+    <None Remove="Images\Covers\Linen-Tan.png" />
+    <None Remove="Images\Covers\Moleskin-Brown.png" />
+    <None Remove="Images\Covers\Moleskin-Tan.png" />
+    <None Remove="Images\Covers\MyDocumentsCover.png" />
+    <None Remove="Images\Covers\Sponge-Blue.png" />
+    <None Remove="Images\Covers\Sponge-Green.png" />
+    <None Remove="Images\Covers\Sponge-Red.png" />
+    <None Remove="Images\Covers\Suede-Blue.png" />
+    <None Remove="Images\Covers\Suede-Brown.png" />
+    <None Remove="Images\Covers\Suede-Red.png" />
+    <None Remove="Images\Covers\UnpublishedGlass.png" />
+    <None Remove="Images\Covers\Vinyl-Black.png" />
+    <None Remove="Images\Covers\Vinyl-Blue.png" />
+    <None Remove="Images\Covers\Vinyl-Red.png" />
+    <None Remove="Images\Covers\Wood-BrazilianRosewood.png" />
+    <None Remove="Images\Covers\Wood-CanaryWood.png" />
+    <None Remove="Images\Covers\Wood-Elm.png" />
+    <None Remove="Images\Covers\Wood-Mahogany.png" />
+    <None Remove="Images\Covers\Wood-MarblewoodAsianBurl.png" />
+    <None Remove="Images\Covers\Wood-SpaltedMapleBurl.png" /> 
+    
+    <!-- <None Remove="Fonts\Arial.ttf" />
+    <None Remove="Fonts\BookAntiqua.ttf" />
+    <None Remove="Fonts\Calibri.ttf" />
+    <None Remove="Fonts\Cambria.ttf" />
+    <None Remove="Fonts\Consolas.ttf" />
+    <None Remove="Fonts\Courier.ttf" />
+    <None Remove="Fonts\CourierNew.ttf" />
+    <None Remove="Fonts\Ebrima.ttf" />
+    <None Remove="Fonts\Gadget.ttf" />
+    <None Remove="Fonts\Gadugi.ttf" />
+    <None Remove="Fonts\Geneva.ttf" />
+    <None Remove="Fonts\Georgia.ttf" />
+    <None Remove="Fonts\GillSans.ttf" />
+    <None Remove="Fonts\Helvetica.ttf" />
+    <None Remove="Fonts\LeelawadeeUI.ttf" />
+    <None Remove="Fonts\LucidaConsole.ttf" />
+    <None Remove="Fonts\LucidaGrande.ttf" />
+    <None Remove="Fonts\LucidaSansUnicode.ttf" />
+    <None Remove="Fonts\Monaco.ttf" />
+    <None Remove="Fonts\MyanmarText.ttf" />
+    <None Remove="Fonts\NirmalaUI.ttf" />
+    <None Remove="Fonts\Palatino.ttf" />
+    <None Remove="Fonts\PalatinoLinotype.ttf" />
+    <None Remove="Fonts\SegoeUI.ttf" />
+    <None Remove="Fonts\Selawik.ttf" />
+    <None Remove="Fonts\Tahoma.ttf" />
+    <None Remove="Fonts\Times.ttf" />
+    <None Remove="Fonts\TimesNewRoman.ttf" />
+    <None Remove="Fonts\TrebuchetMS.ttf" />
+    <None Remove="Fonts\Verdana.ttf" /> -->
+  </ItemGroup>
+  
+  <ItemGroup>
+    <SharedImage Include="Images\Covers\DefaultCover.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Linen-Red.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Calfskin-Black.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Calfskin-Brown.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Calfskin-Red.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Canvas-Blue.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Canvas-Red.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\DefaultCover.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-Black.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-BrownSaddle.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-CaramelBrown.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-ChocolateBrown.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-Crocodile.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-DarkOlive.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-MochaElephant.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-Ostrich.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Leather-TanElephant.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Linen-Blue.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Linen-Red.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Linen-Tan.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Moleskin-Brown.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Moleskin-Tan.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\MyDocumentsCover.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Sponge-Blue.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Sponge-Green.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Sponge-Red.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Suede-Blue.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Suede-Brown.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Suede-Red.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\UnpublishedGlass.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Vinyl-Black.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Vinyl-Blue.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Vinyl-Red.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Wood-BrazilianRosewood.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Wood-CanaryWood.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Wood-Elm.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Wood-Mahogany.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Wood-MarblewoodAsianBurl.png" BaseSize="515,641" />
+    <SharedImage Include="Images\Covers\Wood-SpaltedMapleBurl.png" BaseSize="515,641" /> 
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="FormsApp.xaml.cs">
+      <DependentUpon>FormsApp.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

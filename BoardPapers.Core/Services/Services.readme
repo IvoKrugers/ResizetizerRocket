@@ -1,0 +1,1 @@
+﻿Services are classes that are called mainly from viewmodels to manage stuff, retreive data and save data.

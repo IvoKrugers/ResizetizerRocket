@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary
+    x:Class="BoardPapers.UI.Styles.Colors"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--  Colors  -->
+    <!--  Primary colors  -->
+    <Color x:Key="primary">#0178D4</Color>
+    <Color x:Key="error">#E8484C</Color>
+    <Color x:Key="warning">#574305</Color>
+    <Color x:Key="light_primary">#E1EFFA</Color>
+    <Color x:Key="light_error">#FFF3F4</Color>
+    <Color x:Key="light_warning">#E2DDCC</Color>
+
+    <!--  Accent colors  -->
+    <Color x:Key="white">#FFFFFF</Color>
+    <Color x:Key="black">#222222</Color>
+    <Color x:Key="dark_gray">#777777</Color>
+    <Color x:Key="background_gray">#F1F1F1</Color>
+    <Color x:Key="gray">#8E8E93</Color>
+    <Color x:Key="light_gray">#A8A8AC</Color>
+    <Color x:Key="background_light_gray">#C8C8C8</Color>
+    <Color x:Key="border_light_gray">#E1E1E1</Color>
+
+    <!--  Special colors  -->
+    <Color x:Key="monarch">#750B1C</Color>
+    <Color x:Key="mexican_red">#A4262C</Color>
+    <Color x:Key="persian_red">#D13438</Color>
+    <Color x:Key="tia_maria">#CA5010</Color>
+    <Color x:Key="buttered_rum">#986F0B</Color>
+    <Color x:Key="limeade">#498205</Color>
+    <Color x:Key="blue_stone">#005E50</Color>
+    <Color x:Key="blue_lagoon">#038387</Color>
+    <Color x:Key="lochmara">#0078d4</Color>
+    <Color x:Key="cutty_sark">#567C73</Color>
+    <Color x:Key="nevada">#69797E</Color>
+    <Color x:Key="congress_blue">#004E8C</Color>
+    <Color x:Key="royal_blue">#4F6BED</Color>
+    <Color x:Key="minsk">#373277</Color>
+    <Color x:Key="seance">#881798</Color>
+    <Color x:Key="fuchsia_pink">#C239B3</Color>
+    <Color x:Key="hollywood_cerise">#E3008C</Color>
+    <Color x:Key="quincy">#603D30</Color>
+
+</ResourceDictionary>
